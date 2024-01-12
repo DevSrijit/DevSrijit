@@ -13,7 +13,7 @@ I'm currently learning frontend development. Here's what I'm currently focused o
 - I'm trying to learn next.js and create more full stack projects.
 - I'm exploring different tools and libraries to enhance my skill set.
 - I'm looking forward to spending time organizing hackathons and events, with my post of Regional Manager at [CodeDay Kolkata](https://codeday.org/).
-- I'm leading a high school coding club named [The Code Cafe](https://codecafe.hackclub.com/), where I'm crafting new experiences for students to learn and grow.
+- I'm leading a high school coding club named [The Code Cafe](https://codecafe.hackclub.com/) under the global unmbrella of [Hack Club](https://hackclub.com), where I'm crafting new experiences for students to learn and grow.
 
 ## ✨ Fun Facts 
 
