@@ -27,11 +27,15 @@ I'm currently learning frontend development. Here's what I'm currently focused o
  For a quick response, DM me on [Instagram](https://www.instagram.com/cheeseblock011/) or [Email me](mailto:srijit.dev@icloud.com). 
 ##
   
-<div align="center">
+<div>
 <p style="font-size:20px">
-Here's what I'm listening to !
+The legendary snake eating away my contributions 🐍
 </p>
 
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=31x7pj57ad5xav7b47q5mk6mctwu&cover_image=false&theme=default&show_offline=false&background_color=121212&interchange=false&bar_color_cover=true&bar_color=d1a3ff)](https://github.com/kittinan/spotify-github-profile)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake.svg">
+</picture>
 
 </div>
