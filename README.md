@@ -4,7 +4,7 @@
 
 I'm a 16-year-old teenager based in Kolkata, and I'm passionate about coding, electronics and technology. 
 
-Check out my [website](https://www.srijit.life/) to learn more about me.
+Check out my [website](https://www.srijit.co/) to learn more about me.
 
 ## 🔭 Current Endeavors 
 
