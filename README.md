@@ -1,4 +1,4 @@
-<img src="https://cloud-lv1si39p2-hack-club-bot.vercel.app/0creative-banner.png" style="border-radius: 10px; height: auto; width: auto;">
+<img src="https://i.ibb.co/fqCrRMk/creative-banner.png" style="border-radius: 10px; height: auto; width: auto;">
 
 ### Hey, I'm Srijit 👋 
 
