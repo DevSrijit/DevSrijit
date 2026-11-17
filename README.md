@@ -1,6 +1,6 @@
 ### Srijit Ghosh
 
-Design engineer in Kolkata. I build whole products alone, from the design system to the servers.
+Product engineer in Kolkata. I build whole products alone, from the design system to the servers.
 
 I am the cofounder and CTO of [CommSync](https://apps.apple.com/app/id6810334130), an AI inbox for email and SMS. I designed and built all of it: the Next.js web app, the iPhone app, the Bun backend and the infrastructure. I also build AI agents and the harnesses they run in: tool use, memory, browser control and MCP.
 
