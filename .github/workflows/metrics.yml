@@ -14,6 +14,8 @@ jobs:
     steps:
       # METRICS_TOKEN is a classic personal access token with read:user and repo.
       # The default GITHUB_TOKEN cannot see private contributions.
+      # habits and achievements are off: both fail on current GitHub APIs (checked 2026-11-25).
+      # organization_member is off: it made the card show 65,216 repositories and 2.15 TB.
       # Do not turn on plugins that list repo or org names (activity, notable, lines, followup).
       # The public profile must not name the employer.
       - uses: lowlighter/metrics@latest
@@ -26,28 +28,18 @@ jobs:
           config_display: large
           committer_message: "Update metrics"
 
-          base: header, activity, community, repositories
-          repositories_affiliations: owner, collaborator, organization_member
+          base: header, activity, community
+          repositories_affiliations: owner, collaborator
 
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-          plugin_habits: yes
-          plugin_habits_charts: yes
-          plugin_habits_facts: yes
-          plugin_habits_days: 30
-          plugin_habits_from: 500
-          plugin_habits_trim: yes
 
           plugin_languages: yes
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
           plugin_languages_details: percentage
 
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: B
-          plugin_achievements_limit: 0
 
           plugin_calendar: yes
           plugin_calendar_limit: 3
