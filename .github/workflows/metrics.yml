@@ -15,6 +15,8 @@ jobs:
       # METRICS_TOKEN is a classic personal access token with read:user and repo.
       # The default GITHUB_TOKEN cannot see private contributions.
       # habits and achievements are off: both fail on current GitHub APIs (checked 2026-11-25).
+      # languages is off: its list stays empty because the upstream repo query fails (2026-11-25).
+      # The repositories section is off: it only showed counts of 0 stars and 0 forks.
       # organization_member is off: it made the card show 65,216 repositories and 2.15 TB.
       # Do not turn on plugins that list repo or org names (activity, notable, lines, followup).
       # The public profile must not name the employer.
@@ -28,16 +30,12 @@ jobs:
           config_display: large
           committer_message: "Update metrics"
 
-          base: header, activity, community, repositories
+          base: header, activity, community
           repositories_affiliations: owner, collaborator
 
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-          plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_languages_sections: most-used
-          plugin_languages_details: percentage
 
           plugin_calendar: yes
           plugin_calendar_limit: 3
