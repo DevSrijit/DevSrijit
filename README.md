@@ -2,7 +2,7 @@
 
 Product engineer in Kolkata. I build whole products alone, from the design system to the servers.
 
-I am the cofounder and CTO of [CommSync](https://apps.apple.com/app/id6810334130), an AI inbox for email and SMS. I designed and built all of it: the Next.js web app, the iPhone app, the Bun backend and the infrastructure. I also build AI agents and the harnesses they run in: tool use, memory, browser control and MCP.
+I am the cofounder and CTO of [CommSync](https://commsync.ai), an AI inbox for email and SMS. I designed and built all of it: the Next.js web app, the [iPhone app](https://apps.apple.com/app/id6810334130), the Bun backend and the infrastructure. I also build AI agents and the harnesses they run in: tool use, memory, browser control and MCP.
 
 #### Things I made
 
@@ -23,10 +23,6 @@ TypeScript, React, Next.js, Expo, Swift, Bun, Postgres, and a lot of motion work
 
 [srijitghosh.dev@gmail.com](mailto:srijitghosh.dev@gmail.com)
 
-#### The legendary snake eating away my contributions 🐍
+#### What I ship
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DevSrijit/DevSrijit/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DevSrijit/DevSrijit/output/github-contribution-grid-snake.svg">
-  <img alt="A snake eating Srijit's GitHub contribution graph" src="https://raw.githubusercontent.com/DevSrijit/DevSrijit/output/github-contribution-grid-snake.svg">
-</picture>
+<img alt="Srijit's GitHub metrics: commits, streaks, languages and a 3D contribution calendar, private work included" src="https://raw.githubusercontent.com/DevSrijit/DevSrijit/main/metrics.svg" width="100%">
