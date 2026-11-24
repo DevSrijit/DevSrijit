@@ -25,4 +25,8 @@ TypeScript, React, Next.js, Expo, Swift, Bun, Postgres, and a lot of motion work
 
 #### What I ship
 
-<img alt="Srijit's GitHub metrics: commits, streaks, languages and a 3D contribution calendar, private work included" src="https://raw.githubusercontent.com/DevSrijit/DevSrijit/main/metrics.svg" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DevSrijit/DevSrijit/main/card/contributions-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DevSrijit/DevSrijit/main/card/contributions-light.svg">
+  <img alt="Srijit's contributions on GitHub in the last year, private work included" src="https://raw.githubusercontent.com/DevSrijit/DevSrijit/main/card/contributions-light.svg" width="100%">
+</picture>

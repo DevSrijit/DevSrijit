@@ -1,0 +1,31 @@
+name: Contribution card
+
+on:
+  # Every day at 00:00 UTC (05:30 IST).
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [scripts/card.ts, .github/workflows/card.yml]
+
+jobs:
+  card:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      # METRICS_TOKEN is a classic personal access token of DevSrijit with read:user and repo.
+      # The default GITHUB_TOKEN cannot see private contributions, so the card would undercount.
+      - name: Draw the card
+        run: bun scripts/card.ts card
+        env:
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+      - name: Commit the card if it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add card
+          git diff --cached --quiet || (git commit -m "Update the contribution card" && git push)
